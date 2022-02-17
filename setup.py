@@ -8,7 +8,7 @@ def readme():
 
 setuptools.setup(
     name='py3rosmsgs',
-    version='1.17',
+    version='1.17.2',
     author="Rahul Bhadani",
     author_email="rahulbhadani@email.arizona.edu",
     description="Python 3 Port of ROS 1.0 messages from genpy generated python classes and pre-compiled binaries.",
@@ -20,7 +20,6 @@ setuptools.setup(
         'numpy',
         'matplotlib',
         'pyserial',
-        'pathlib',
         'gnupg'
         ],
     classifiers=[
